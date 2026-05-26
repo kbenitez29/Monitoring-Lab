@@ -1,0 +1,24 @@
+- name: Kubernetes resources
+  hosts: kubernetes
+
+  tasks: 
+
+    - name: Create namespace
+      kubernetes.core.k8s:
+        state: present
+        src: ../kubernetes/namespace/flask-app-namespace.yaml
+
+    - name: Deploy app
+      kubernetes.core.k8s:
+        state: present
+        src: ../kubernetes/deployment/flask-app-deployment.yaml
+
+    - name: Deploy service
+      kubernetes.core.k8s:
+        state: present
+        src: ../kubernetes/service/flask-app-service.yaml
+
+    - name: Deploy ingress
+      kubernetes.core.k8s:
+        state: present
+        src: ../kubernetes/ingress/flask-ingress.yaml

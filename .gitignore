@@ -1,0 +1,10 @@
+*.log
+.env
+*.tfstate
+*.tfstate.*
+__pycache__/
+*.pyc
+.terraform/
+coverage/
+tmp/
+*.swp
