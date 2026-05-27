@@ -202,6 +202,15 @@ make grafana
 
 # Screenshots
 
+## Flask Application
+
+![Flask](screenshots/web.png)
+
+##Ingress Monitoring
+![Grafana](screenshots/ingress1.png)
+
+##Ingress App
+![Flask](screenshots/ingress2.png)
 ---
 
 # Final Thoughts
