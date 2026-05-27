@@ -206,11 +206,19 @@ make grafana
 
 ![Flask](screenshots/web.png)
 
-##Ingress Monitoring
-![Grafana](screenshots/ingress1.png)
+## Monitoring ingress
+![Grafana](screenshots/ingress2.png)
 
-##Ingress App
-![Flask](screenshots/ingress2.png)
+## App ingress
+![Flask](screenshots/ingress1.png)
+
+## Monitoring pods
+![Flask](screenshots/pods1.png)
+
+## App pods
+![Flask](screenshots/pods2.png)
+
+
 ---
 
 # Final Thoughts
